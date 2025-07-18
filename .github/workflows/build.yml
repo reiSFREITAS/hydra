@@ -109,7 +109,7 @@ jobs:
           args: >
             -Dsonar.projectKey=reiSFREITAS_hydra
             -Dsonar.organization=reisfreitas
-            -Dsonar.sources=src
+            -Dsonar.sources=src/main
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
